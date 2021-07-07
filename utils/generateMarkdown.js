@@ -9,11 +9,14 @@
 
 function generateMarkdown(data) {
     return `
+    
+  ## Title ${data.title}
 
     [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](https://www.contributor-covenant.org/version/2/0/code_of_conduct/)
   
-    # **${data.title}**
-    # Table of Contents
+    ${data.description}
+  # Table of Contents
+
     * [Project Description](#project-description)
     * [Installation](#installation)
     * [Usage](#usage)
@@ -21,19 +24,26 @@ function generateMarkdown(data) {
     * [License](#license)
     * [Contributions](#contributions)
     * [Questions](#questions)
-    # Project Description
     
-    ${data.description}
+  
+  # Project Description
     
-    # Installation
+    
+    
+# Installation
     ${data.installation}
-    # Usage
-    ${data.usage}
-    # Tests
+
+# Usage
+
+${data.usage}
+
+# Tests
     ${data.tests}
-    # License
+
+# License
     ${data.license}
-    # Contributions
+
+# Contributions
     ${data.contributors}
     # Questions
     If you have any questions, please contact the project owner by clicking on the email listed below.  
