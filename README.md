@@ -1,43 +1,24 @@
 
     
-  ## Title undefined
+# README.md Generator Using Node.js
 
-    [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](https://www.contributor-covenant.org/version/2/0/code_of_conduct/)
-  
-    undefined
-  # Table of Contents
 
-    * [Project Description](#project-description)
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [Tests](#tests)
-    * [License](#license)
-    * [Contributions](#contributions)
-    * [Questions](#questions)
+  ## Project Description
+    A node.js application that uses user input from inquirer to populate a README.md file for user repository. 
     
-  
-  # Project Description
+  ## DEMO
     
-    
-    
-# Installation
-    undefined
+  ![Screen Shot 2021-07-07 at 5 05 30 PM](https://user-images.githubusercontent.com/45496074/124829243-5d3e4980-df46-11eb-9059-bca3ef2b8941.png)
 
-# Usage
 
-undefined
 
-# Tests
-    undefined
 
-# License
-    undefined
+✋ email me or reach out on GitHub
 
-# Contributions
-    undefined
-    # Questions
-    If you have any questions, please contact the project owner by clicking on the email listed below.  
-    
-    ![user image](undefined)
-    #### [](mailto:)
-  
+
+✉️ Email me with any questions: eulaliegee@gmail.com
+
+
+This README was generated with ❤️ by README-generator 🔥🔥🔥
+
+
