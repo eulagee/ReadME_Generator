@@ -2,7 +2,7 @@
 const inquirer = require('inquirer');
 const path = require('path');
 const fs = require('fs');
-const generateJS = require('./utils/generate');
+const generateJS = require('./utils/generateMarkdown');
 
 
 //arr questions for user
@@ -48,8 +48,6 @@ const questions = [{
 function createfile(fileName, data) {
     return fs.writeFileSync(path.join(process.cwd(), fileName), data)
 }
-
-
 
 
 
