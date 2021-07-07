@@ -19,7 +19,7 @@ const questions = [{
 
     {
         type: 'input',
-        name: 'contributors',
+        name: 'contributions',
         message: 'What does the user need to know about contributing to the repo?'
     },
 
@@ -34,6 +34,12 @@ const questions = [{
         name: 'liscense',
         message: 'What license does your projec have?',
         choices: ['Apache 2.0', 'MIT', 'none']
+    },
+
+    {
+        type: 'input',
+        name: 'How do you use the app?',
+        message: 'Usage'
     },
 
 
